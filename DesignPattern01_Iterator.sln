@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern1", "DesignPattern1\DesignPattern1.csproj", "{CDB9A2F7-CC2B-4313-9A77-E42DB1163CE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern01_Iterator", "DesignPattern1\DesignPattern01_Iterator.csproj", "{CDB9A2F7-CC2B-4313-9A77-E42DB1163CE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
