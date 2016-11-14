@@ -8,28 +8,26 @@ namespace DesignPattern01_Iterator
 {
     class BookShelf : IAggregate
     {
-        private Book[] books;
-        private int last = 0;
+        List<Book> books;
 
         public BookShelf(int maxsize)
         {
-            this.books = new Book[maxsize];
+            books = new List<Book>();
         }
         
         public Book GetBookAt(int index)
         {
-            return books[index];
+            return (index < books.Count) ? books[index] : null;
         }
 
         public void AppendBook(Book book)
         {
-            this.books[last] = book;
-            last++;
+            books.Add(book);
         }
 
         public int GetLength()
         {
-            return last;
+            return books.Count;
         }
 
         public IIterator iterator()
